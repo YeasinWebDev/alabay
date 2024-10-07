@@ -11,7 +11,7 @@ const History = () => {
                 <img src="/assets/historyImg.png" alt="" className='w-[60vw] md:w-[45vw] lg:w-[40vw] xl:w-[40vw] mx-auto' />
                 <div>
                     <img src="/assets/historyText.png" alt="" className='w-[50vw] md:w-[40vw] lg:w-[40vw] xl:w-[40vw] mx-auto' />
-                    <p className='font-kumbh font-bold text-center md:text-xl xl:text-3xl 2xl:text-4xl lg:w-[45vw] xl:w-[35vw] pt-5 lg:text-right xl:ml-20'>
+                    <p className='font-kumbh font-bold text-center md:text-xl xl:text-3xl 2xl:text-4xl lg:w-[38vw] xl:w-[35vw] pt-5 lg:text-right xl:ml-20'>
                         The Central Asian Shepherd Dog, also known as Alabay, has been a guardian of livestock and property for centuries. Originating from Central Asia, these dogs are renowned for their courage, strength, and loyalty.
                     </p>
                 </div>
