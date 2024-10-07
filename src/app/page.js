@@ -1,5 +1,7 @@
 import History from "./components/History";
+import Roadcom from "./components/Roadcom";
 import Slider from "./components/Slider";
+import Vision from "./components/Vision";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
           <div className="xl:h-[90vh] xl:overflow-y-auto bg-[#FFFFFF] rounded-t-3xl xl:z-10">
             <History/>
             <Slider/>
+            <Vision/>
+            <Roadcom/>
           </div>
         </div>
       </div>
