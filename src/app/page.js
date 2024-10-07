@@ -1,4 +1,5 @@
 import History from "./components/History";
+import { Merchandise } from "./components/Merchandise";
 import Roadcom from "./components/Roadcom";
 import Slider from "./components/Slider";
 import { Token } from "./components/Token";
@@ -25,6 +26,7 @@ export default function Home() {
             <Vision/>
             <Roadcom/>
             <Token/>
+            <Merchandise/>
           </div>
         </div>
       </div>
