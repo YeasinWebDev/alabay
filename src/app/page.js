@@ -16,7 +16,7 @@ export default function Home() {
         <div className="xl:h-[80vh] h-0"></div>
 
         <div className="xl:sticky xl:z-10 xl:top-20 xl:pt-20 rounded-t-3xl">
-          <div className="xl:h-[90vh] xl:overflow-y-auto bg-red-50 rounded-t-3xl xl:z-10">
+          <div className="xl:h-[90vh] xl:overflow-y-auto bg-[#FFFFFF] rounded-t-3xl xl:z-10">
             <History/>
             <Slider/>
           </div>

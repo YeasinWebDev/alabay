@@ -13,6 +13,7 @@ module.exports = {
       },
       fontFamily: {
         'kumbh': ['Kumbh Sans', 'sans-serif'],
+        'Monts':["Montserrat", 'sans-serif']
       },
     },
   },
