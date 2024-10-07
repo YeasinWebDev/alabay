@@ -1,6 +1,7 @@
 import History from "./components/History";
 import Roadcom from "./components/Roadcom";
 import Slider from "./components/Slider";
+import { Token } from "./components/Token";
 import Vision from "./components/Vision";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
             <Slider/>
             <Vision/>
             <Roadcom/>
+            <Token/>
           </div>
         </div>
       </div>
