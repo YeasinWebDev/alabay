@@ -1,3 +1,4 @@
+import Game from "./components/Game";
 import History from "./components/History";
 import { Merchandise } from "./components/Merchandise";
 import Roadcom from "./components/Roadcom";
@@ -27,6 +28,7 @@ export default function Home() {
             <Roadcom/>
             <Token/>
             <Merchandise/>
+            <Game/>
           </div>
         </div>
       </div>
