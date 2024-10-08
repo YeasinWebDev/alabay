@@ -9,18 +9,18 @@ import Vision from "./components/Vision";
 
 export default function Home() {
   return (
-    <div className="xl:relative">
+    <div className="md:relative ">
         <img
           src="/assets/mainImg.png"
-          className="object-contain w-full lg:fixed -z-50"
+          className="object-contain w-full md:fixed -z-50"
           alt="Background"
         />
 
-      <div className="lg:w-[90vw] mx-auto">
-        <div className="lg:h-[80vh] h-0"></div>
+      <div className="md:w-[95vw] lg:w-[90vw] mx-auto scrollbar-thin scrollbar-thumb-gray-500">
+        <div className="md:h-[50vh] lg:h-[70vh] xl:h-[80vh] h-0"></div>
 
-        <div className="lg:sticky lg:z-10 lg:top-20 lg:pt-20 rounded-t-3xl">
-          <div className="lg:h-[90vh] lg:overflow-y-auto bg-[#FFFFFF] rounded-t-3xl lg:z-10">
+        <div className="md:sticky md:z-10 md:top-20 md:pt-20 rounded-t-3xl">
+          <div className="md:h-[90vh] md:overflow-y-auto bg-[#FFFFFF] rounded-t-3xl md:z-10">
             <History/>
             <Slider/>
             <Vision/>
